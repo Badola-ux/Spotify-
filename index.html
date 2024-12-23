@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your beloved music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="spotify_icon.png" alt="Spotify">Spotify
+            </li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Browse</li>
+            <li>Premium</li>
+        </ul>
+    </nav>
+
+    <!-- Main Banner -->
+    <header class="main-banner">
+        <h1>Welcome to Spotify</h1>
+        <p>Your favorite music, podcasts, and more, all in one place.</p>
+        <button class="explore-button">Explore Now</button>
+    </header>
+
+    <!-- Playlist Section -->
+    <section class="playlists">
+        <h2>Popular Playlists</h2>
+        <div class="playlist-container">
+            <div class="playlist">
+                <img src="spotify_background.png" alt="Playlist Cover">
+                <h3>Best of NCS</h3>
+                <p>No Copyright Sounds</p>
+            </div>
+            <div class="playlist">
+                <img src="spotify_background.png" alt="Playlist Cover">
+                <h3>Top Hits</h3>
+                <p>Most Played Tracks</p>
+            </div>
+            <div class="playlist">
+                <img src="spotify_background.png" alt="Playlist Cover">
+                <h3>Chill Vibes</h3>
+                <p>Relax and Unwind</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Song List -->
+    <section class="songlist">
+        <h2>Trending Songs</h2>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="spotify_background.png" alt="1">
+                <span>Garhwali DJ song</span>
+                <span class="songlistplay">
+                    <span class="timestamp">05:34 <i class="fa-regular fa-circle-play"></i></span>
+                </span>
+            </div>
+            <div class="songItem">
+                <img src="spotify_background.png" alt="2">
+                <span>Popular Beats</span>
+                <span class="songlistplay">
+                    <span class="timestamp">03:45 <i class="fa-regular fa-circle-play"></i></span>
+                </span>
+            </div>
+            <div class="songItem">
+                <img src="spotify_background.png" alt="3">
+                <span>Summer Hits</span>
+                <span class="songlistplay">
+                    <span class="timestamp">04:12 <i class="fa-regular fa-circle-play"></i></span>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio Controls -->
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward fa-2x"></i>
+            <i class="fa-regular fa-circle-play fa-2x"></i>
+            <i class="fa-solid fa-forward fa-2x"></i>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Spotify. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Contact Us</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
